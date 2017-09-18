@@ -1,0 +1,99 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.img-circle{
+    list-style-type: none;
+border-radius:50% 50% 50% 50%;  
+width:200px;
+height:200px;
+padding: 5px 5px;
+
+}
+#follow-container {
+    float: right;
+    width: 17%;
+    display: block;   
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;   
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #4CAF50;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+.jumbotron {
+    padding: 20px 25px;
+    margin-bottom: 30px;
+    text-color:black;
+    background-color: #eee;
+    background-image: url('b.jpg');
+    /*opacity: 0.5;*/
+    
+    /*background-size: 500px 200px*/
+
+}
+h1 span{
+    color:white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+}
+footer {
+    
+    color:blue;
+}
+h2{
+    color:palevioletred;
+    
+}
+h5{
+    color:blue;
+}
+
+.price{
+    padding: 20px 25px;
+    margin-bottom: 30px;
+}
+form{
+    padding-left: 40px;
+}
+h3{
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
